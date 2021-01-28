@@ -1,0 +1,88 @@
+import time
+currentTime = time.time()
+
+totalSeconds = int(currentTime)
+currentSecond = totalSeconds % 60
+
+totalMinutes = totalSeconds // 60
+currentMinutes = totalMinutes % 60
+
+totalHours = totalMinutes // 60
+currentHours = totalHours % 24
+#GMT time
+print(currentHours,":",currentMinutes,":",currentSecond)
+
+
+
+#Program to calculate the monthly and annualInterestRate
+# annualInterestRate = eval(input("Enter annual interest Rate 4.5%: "))
+# monthlyInterestRate = annualInterestRate / 1200
+#
+# numberOfYears = eval(input("Enter number of years: "))
+# loanAmount = eval(input("Enter Total Loan amount: "))
+#
+# monthlyPayment = (loanAmount * monthlyInterestRate) / \
+#                  (1 - (1 / (1 + monthlyInterestRate) ** (numberOfYears * 12)))
+# totalPayment = monthlyPayment * numberOfYears * 12
+# print("Monthly Payment is: ", int(monthlyPayment * 100) / 100.0)
+# print("Total Payment is: ", int(totalPayment * 100) / 100.0)
+
+#Convert Celcius to Fahrenheit
+# celsius = eval(input("Enter temperature in Celsius: "))
+#
+# fahrenheit = (9 / 5) * celsius + 32
+# print(celsius,' in Fahrenheit is ', fahrenheit)
+
+
+# #TODO: Area in Hexagon
+# side = eval(input("Enter side: "))
+#
+# areaInHexagon = (3 * (3 ** 0.5) * side * side) / 2
+# print("Area in Hexagon is :", format(areaInHexagon, ".2f"))
+
+#TODO: Financial Application calculate futureInvestment
+# amount = eval(input("Enter invest amount: "))
+# interestRate = eval(input("Enter interest Rate 5.4%: "))
+# numberOfYear = eval(input("Enter number of years: "))
+#
+# futureInvestment = amount * (1 + (interestRate / 1200) ** (numberOfYear * 12))
+# print("Accumalated value is: ", futureInvestment)
+
+#TODO: Minimum number of coins
+
+# amount = eval(input("Enter number of amount in decimal: "))
+# totalcents = int(amount*100)
+#
+# dollars = totalcents // 100
+# remaingCents = totalcents % 100
+#
+# quarters = remaingCents // 25
+# remaingCents = remaingCents % 25
+#
+# dimes = remaingCents // 10
+# remaingCents = remaingCents % 10
+#
+# nickels = remaingCents // 5
+# remaingCents = remaingCents % 5
+# print("Your amount ", amount, " consists of\n",
+#       "\t", dollars, "dollars \n",
+#       "\t", quarters, "quators \n",
+#       "\t", dimes, "dimes \n",
+#       "\t", nickels, "nickels \n",
+#       "\t", remaingCents, 'pennies')
+
+
+#TODO: write a program to perform addition quiz
+import random
+number1 = random.randint(0, 9)
+number2 = random.randint(0, 9)
+
+answer = eval(input("What is "+str(number1)+" + "+str(number2)+" ?"))
+print(number1, "+", number2, ' = ', answer, " is ", number1+number2 == answer)
+
+
+rand = random.randint(0, 19)
+print(rand)
+
+rand1 = random.randint(10, 19)
+print(rand1)
