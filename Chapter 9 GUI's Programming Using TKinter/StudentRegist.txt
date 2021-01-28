@@ -1,0 +1,5 @@
+('Padam Rai', 'Naroo', 'Male', 'F16CS36', 'CSE', '0363664368', 'Umarkot')
+('Parkash Rai', 'Ajo Mal', 'Male', 'F16CS14', 'CSE', '03463664368', 'Mithi')
+('', '', 'Female', '', '', '', '')
+('Komal Kumari', 'Sawai', 'Female', 'F16CS166', 'CSE', '0303332322', 'Umarkot')
+('Sanjay Kumar', ' Bekho Mal', 'Male', '49383', 'Science', '0348393849', 'Umarkot')
